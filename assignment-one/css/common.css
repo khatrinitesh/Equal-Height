@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Playfair Display', serif;
+}
+
+ul,ol{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.clr::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.fleft{
+	float: left;
+}
+
+.fright{
+	float: right;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+/* ==== START CSS CODE ==== */
+.column:nth-child(even){
+	background-color: yellow;
+}
+
+.column:nth-child(odd){
+	background-color: orange;
+}
+
+.column{
+	width: 33.33%;
+	padding: 16px;
+}
